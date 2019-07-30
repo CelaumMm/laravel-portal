@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'path' => env('TELESCOPE_PATH', 'telescope'),
+    'path' => env('TELESCOPE_PATH', 'admin/debugger'),
 
     /*
     |--------------------------------------------------------------------------
@@ -77,6 +77,8 @@ return [
 
     'middleware' => [
         'web',
+        'auth',
+        'permission:debugger',
         Authorize::class,
     ],
 
