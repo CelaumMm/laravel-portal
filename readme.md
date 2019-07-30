@@ -12,12 +12,12 @@
 Aplicação em Laravel v5.8 com modulo admin com controle de acl para iniciar um projeto com o laravel!
 
 -   [Laravel permission 2.37](https://github.com/spatie/laravel-permission)
--   [Laravel media library 7.6](https://github.com/spatie/laravel-medialibrary)
--   [Laravel localization 1.3.19](https://github.com/mcamara/laravel-localization)
+-   [Laravel media library 7.7](https://github.com/spatie/laravel-medialibrary)
+-   [Laravel localization 1.3.20](https://github.com/mcamara/laravel-localization)
 -   [Laravel form builders 5.8](https://github.com/LaravelCollective/html)
--   [Laravel telescope 2.0.4](https://github.com/laravel/telescope)
+-   [Laravel telescope 2.0.6](https://github.com/laravel/telescope)
 -   [AdminLTE 2.4](https://adminlte.io/)
--   [Fontawesome 5.8](https://fontawesome.com/)
+-   [Fontawesome 5.10](https://fontawesome.com/)
 
 ## Requisitos
 
@@ -63,7 +63,9 @@ Aplicação em Laravel v5.8 com modulo admin com controle de acl para iniciar um
     ```bash
     php artisan key:generate
     ```
-7. Criar o banco de dados com phpmyadmin ou workbench e configurar o arquivo .env nas linhas com os (`seus dados de conexão ao banco de dados`).
+7. Criar o banco de dados com um gerenciador de banco e configurar o arquivo .env nas linhas com os (`seus dados de conexão ao banco de dados`).
+
+    MYSQL
 
     ```bash
     DB_CONNECTION=mysql
@@ -72,6 +74,21 @@ Aplicação em Laravel v5.8 com modulo admin com controle de acl para iniciar um
     DB_DATABASE=homestead
     DB_USERNAME=homestead
     DB_PASSWORD=secret
+    ```
+
+    SQLITE
+
+    ```bash
+    touch database/database.sqlite
+    ```
+
+    ```bash
+    DB_CONNECTION=sqlite
+    #DB_HOST=127.0.0.1
+    #DB_PORT=3306
+    #DB_DATABASE=homestead
+    #DB_USERNAME=homestead
+    #DB_PASSWORD=secret    
     ```
 
 8. Criar as tabelas com o migrate
