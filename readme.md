@@ -21,7 +21,7 @@ Aplicação em Laravel v5.8 com modulo admin com controle de acl para iniciar um
 -   [Laravel telescope 2.0.6](https://github.com/laravel/telescope)
 -   [Laravel lang 4.0](https://github.com/caouecs/Laravel-lang)
 -   [Laravel localization 1.3.20](https://github.com/mcamara/laravel-localization)
--   [Laravel media library 7.7](https://github.com/spatie/laravel-medialibrary)
+-   [Laravel media library 7.8](https://github.com/spatie/laravel-medialibrary)
 
 ## Requisitos
 
