@@ -183,6 +183,8 @@ return [
         Spatie\Permission\PermissionServiceProvider::class,
         // PACKAGE LARAVEL COLLECTION
         Collective\Html\HtmlServiceProvider::class,
+        // PACKAGE LARAVEL LOCALIZARION
+	    Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
     ],
 
     /*
@@ -239,6 +241,8 @@ return [
          // PACKAGE LARAVEL COLLECTION
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        // PACKAGE LARAVEL LOCALIZARION
+	    'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
     ],
 
 ];
