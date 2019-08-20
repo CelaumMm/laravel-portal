@@ -11,13 +11,17 @@
 
 Aplicação em Laravel v5.8 com modulo admin com controle de acl para iniciar um projeto com o laravel!
 
--   [Laravel permission 2.37](https://github.com/spatie/laravel-permission)
--   [Laravel media library 7.7](https://github.com/spatie/laravel-medialibrary)
--   [Laravel localization 1.3.20](https://github.com/mcamara/laravel-localization)
--   [Laravel form builders 5.8](https://github.com/LaravelCollective/html)
--   [Laravel telescope 2.0.6](https://github.com/laravel/telescope)
--   [AdminLTE 2.4](https://adminlte.io/)
+
+-   [BootStrap 4.3](https://getbootstrap.com/)
 -   [Fontawesome 5.10](https://fontawesome.com/)
+-   [AdminLTE 2.4](https://adminlte.io/)
+
+-   [Laravel form builders 5.8](https://github.com/LaravelCollective/html)
+-   [Laravel permission 2.37](https://github.com/spatie/laravel-permission)
+-   [Laravel telescope 2.0.6](https://github.com/laravel/telescope)
+-   [Laravel lang 4.0](https://github.com/caouecs/Laravel-lang)
+-   [Laravel localization 1.3.20](https://github.com/mcamara/laravel-localization)
+-   [Laravel media library 7.8](https://github.com/spatie/laravel-medialibrary)
 
 ## Requisitos
 
