@@ -12,7 +12,7 @@
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.10.0",
         "admin-lte": "^2.4.15",
-        "axios": "^0.18",
+        "axios": "^0.21",
         "bootstrap": "^4.1.0",
         "cross-env": "^5.1",
         "flag-icon-css": "^3.3.0",
